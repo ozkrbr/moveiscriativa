@@ -28,6 +28,7 @@ import { ContactComponent } from './components/contact/contact.component';
 
 //Client Service
 import { ClientService } from './services/client.service';
+import { FooterComponent } from './components/footer/footer.component';
 
 // Create Routes
 const appRoutes: Routes = [
@@ -51,7 +52,8 @@ const appRoutes: Routes = [
     RegisterComponent,
     SettingsComponent,
     PageNotFoundComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
